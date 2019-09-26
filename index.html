@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ataka51 - about</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="eng">
+    <script>
+        var preload = document.createElement('div');
+        preload.style.cssText = 'width: 100%; height: 100%; position: fixed; background-color: #BB0000; z-index: 3;';
+        document.body.prepend(preload);
+        setTimeout(function () {
+            preload.remove();
+        }, 500);
+    </script>
+    <nav class="main-navigation main-navigation--index main-navigation--disable">
+        <ul class="main-navigation__list">
+            <li class="main-navigation__item">
+                <a class="main-navigation__link main-navigation__link--current" href="/">Ataka51</a>
+            </li>
+            <li class="main-navigation__item">
+                <a class="main-navigation__link" href="/lucifer.html">Lucifer</a>
+            </li>
+            <li class="main-navigation__item">
+                <a class="main-navigation__link" href="/zanovo.html">Zanovo</a>
+            </li>
+            <li class="main-navigation__item">
+                <a class="main-navigation__link" href="/badlands.html">Badlands</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <header class="main-header">
+            <div class="container main-header__container">
+                <a href="/menu.html" class="main-header__link menu-btn">Back</a>
+                <div class="main-header__lang language">
+                    <button class="language__btn language__btn--eng" data-lang="eng" type="button" aria-label="включить английский язык">ENG</button>
+                    <span class="language__separate">/</span>
+                    <button class="language__btn language__btn--ru" data-lang="ru" type="button" aria-label="включить русский язык">RUS</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="about">
+                <div class="container">
+                    <p class="about__text"><span class="about__name">ATAKA51</span> was founded in 2016. We&nbsp;are a collective of filmmakers: Alexander Epikhov, Dmitry Gorbaty,  Phillipe Ivanov, Sergey Medvedev</p>
+                    <div class="about__contacts">
+                        <a class="about__link about__link--email" href="mailto:contact@ataka51.com">contact@ataka51.com</a>
+                        <a class="about__link" href="https://www.instagram.com/aaataka51" target="_blank">instagram</a>,
+                        <a class="about__link" href="https://vimeo.com/ataka51" target="_blank">vimeo</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container main-footer__container">
+                <a class="main-footer__link copyright" href="mailto:romabespaleva@gmail.com" target="_blank">design.code</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
